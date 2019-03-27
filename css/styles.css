@@ -58,7 +58,7 @@ h1, h2 {
 }
 
 .jumbotron {
-  background-image: url("http://via.placeholder.com/1134x692.jpg?text=full+screen+background+video");
+  background-image: url("http://via.placeholder.com/1134x692.jpg?text=full+screen+background");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -106,7 +106,7 @@ p {
 }
 
 .lee-chapel-header h1 {
-  font-family: 'Lato', serif;
+  font-family: 'Montserrat', serif;
   font-weight: 100;
   font-size: 6rem;
   color: white;
