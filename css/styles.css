@@ -112,7 +112,10 @@ p {
   color: white;
 }
 
-
+.subsection {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
 
 footer {
 
@@ -169,10 +172,11 @@ img-fullwidth {
 }
 
 .blockquote {
-  padding: 10px 20px;
-  margin: 0 0 20px;
+
   font-size: 40px;
 }
+
+
 
 .quote-line-spacing {
   line-height: 1.2;
@@ -241,7 +245,7 @@ a:hover.next-indicator {
 figcaption {
   font-size: small;
 }
-.figure-caption {font-size: 70%;}
+ 
 
 
 /* card flip styling adapted from https://codepen.io/IamManchanda/pen/zoaWdW */
