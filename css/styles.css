@@ -118,8 +118,8 @@ p {
 }
 
 footer {
-
-  background-color: #6c757d;
+margin-top: 8rem;
+height: 10vh;
 }
 
 footer p {
@@ -154,6 +154,13 @@ img-fullwidth {
   backface-visibility: hidden;
 }
 
+.align-figure-right {
+  text-align: right;
+}
+
+.row-spacing {
+  margin-top: 5rem;
+}
 
 .wraptext-right {
   margin-right: 20px;
@@ -172,7 +179,6 @@ img-fullwidth {
 }
 
 .blockquote {
-
   font-size: 40px;
 }
 
@@ -245,7 +251,7 @@ a:hover.next-indicator {
 figcaption {
   font-size: small;
 }
- 
+
 
 
 /* card flip styling adapted from https://codepen.io/IamManchanda/pen/zoaWdW */
