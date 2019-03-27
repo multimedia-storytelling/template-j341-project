@@ -1,5 +1,7 @@
 /* ==========================================================================
    custom styles for aplacelikehome.org
+
+   Many styles are adapted from the 83percent.org design. Customize as needed for this project.
    ========================================================================== */
 
 
@@ -40,15 +42,7 @@ h1, h2 {
   font-weight: 300;
 }
 
-.gradyrow1 {
-  background-color: #4F525D;
-  color: white;
-  padding-bottom: 20px;
-  margin-top: 5rem;
-  margin-bottom: 1rem;
-  font-size: 2.4rem;
-  font-weight: 300;
-}
+
 
 .thin-heading {
   font-weight: 300;
@@ -58,17 +52,6 @@ h1, h2 {
 .map-insert {
   margin-top: 2rem;
 }
-
-/* sets the underline color
-h2:after {
-  content:"";
-  display:block;
-  height: 4px;
-  background: linear-gradient(to right, #7d7d7d, #b9b9b9);
-  width: 150px;
-  margin-top: 10px;
-}
-*/
 
 .container-fluid {
   padding: 0 0;
@@ -84,60 +67,12 @@ h2:after {
   padding: 0;
 }
 
-.social-pillars-header {
-  background-image: url("../images/fancydress-cropped.png");
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100vh;
-  padding: 0;
-}
 
-.lee-chapel-header {
-  background-image: url("../images/leechapel-drone.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100vh;
-  padding: 0;
-}
-
-.greeklife-header {
-  background-image: url("../images/WLUwatercolorlandscape.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100vh;
-  padding: 0;
-}
-
-.pathahead-header {
-  background-image: url("../images/WLUwatercolorpaths.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100vh;
-  padding: 0;
-}
-
-.about-header {
-  background-image: url("../images/");
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100vh;
-  padding: 0;
-}
 
 .jumbotron .container-fluid {
   color: #fff;
   background: rgba(0, 0, 0, 0.5);
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   position: relative;
 }
 
@@ -170,45 +105,17 @@ p {
   font-family: 'Lora', serif;
 }
 
-.social-pillars-overlay {
-  padding-top: 50px;
-}
-
-.social-pillars-header h1 {
-  font-family: 'Lato', serif;
-  font-weight: 100;
-  font-size: 84px;
-}
-
-.pathahead-overlay {
-  background-color: rgba(0, 0, 0, 0.0) !important;
-}
-
-.pathahead-header h1 {
-  font-family: 'Lato', serif;
-  font-weight: 100;
-  font-size: 6rem;
-  color: #00000080;
-}
 .lee-chapel-header h1 {
   font-family: 'Lato', serif;
   font-weight: 100;
   font-size: 6rem;
   color: white;
 }
-.greeklife-overlay {
-  background-color: rgba(0, 0, 0, 0.0) !important;
-}
-.greeklife-header h1 {
-  font-family: 'Lato', serif;
-  font-weight: 100;
-  font-size: 7rem;
-  color: #9d2b15;
-}
+
 
 
 footer {
-  /*  margin-top: 100px; */
+
   background-color: #6c757d;
 }
 
@@ -229,6 +136,8 @@ img-fullwidth {
   width: 100%;
 }
 
+
+/* utility classes that may be useful  */
 .img-noborder {
   border: 0;
 }
@@ -286,27 +195,7 @@ img-fullwidth {
   margin: 3em 1em;
 }
 
-/* progress bar */
 
-.progress-bar {}
-
-.progress {
-  width: 100%;
-  height: 100%;
-  padding: 0;
-}
-
-a.progress-link {
-  display: block;
-  text-decoration: none;
-  color: inherit;
-}
-
-a:hover.progress-link {
-  text-decoration: none;
-}
-
-/*end progress bar */
 .next-indicator-row {
   margin-top: 3rem;
   margin-bottom: 4rem;
@@ -319,7 +208,7 @@ a:hover.progress-link {
 a:hover.next-indicator {
   color: #dbdee0;
 }
-
+ /* chapter refers to the bottom navigation bar in the 83percent site */
 .chapter {
   display: inline-block;
   width: 100%;
@@ -327,7 +216,7 @@ a:hover.next-indicator {
   border: 1px solid black;
   background-color: #DBDEE0;
   color: white;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: .75em;
 }
 
@@ -347,26 +236,13 @@ a:hover.next-indicator {
   color: gray;
 }
 
-/* end progress bar styling */
+/* end chapter bar styling */
 
 figcaption {
   font-size: small;
 }
 .figure-caption {font-size: 70%;}
-.video-greek {
-  margin-top: 50px;
-}
 
-#pov-section {
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-
-.pov-text {
-  font-family: 'Lato', serif;
-  font-weight: 100;
-  font-size: 84px;
-}
 
 /* card flip styling adapted from https://codepen.io/IamManchanda/pen/zoaWdW */
 
@@ -418,40 +294,6 @@ figcaption {
 
 /* end card flip styling */
 
-.lee-debate {
-  margin-top: 5rem;
-  margin-bottom: 15rem;
-}
-
-.debate-images {
-  width: 451px;
-  height: 300px;
-}
-.choose-speaker:hover {
-  opacity: 0.3;
-}
-#saimon {
-}
-#saimon-video {display: none;}
-#mugo-video {visibility: hidden;}
-.timeline {
-  margin-top: 1.618em;
-  margin-bottom: 1.618em;
-}
-#debate-holder {color: red;}
-
-.not-unmindful {
-  margin-top: 1.618em;
-}
-
-.spheres {
-  margin-top: 8rem;
-}
-
-.greek-decisions {
-  margin-top: 4rem;
-  margin-bottom: 5rem;
-}
 
 
 
@@ -481,246 +323,8 @@ figcaption {
   margin-top: 75px;
 }
 
-/* mock con header graphics */
-
-* {
-  box-sizing: border-box;
-}
-
-.mockcon-graphic-header {
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  min-height: 100vh;
-  margin: 0;
-}
-
-img {
-  width: 100%;
-  display: block;
-}
-
-.main-mockcon {
-  display: grid;
-  grid-template-columns: 2fr 1fr 1fr 2fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  /*  margin: 5vw; */
-}
-
-.header-link {
-  display: block;
-}
-
-header, b {
-  grid-row: 2 / 4;
-  padding: 2rem;
-  grid-column: 2 / 4;
-  text-align: center;
-  align-self: center;
-  z-index: 1;
-}
-
-header {
-  z-index: 2;
-}
-
-b {
-  background: white;
-  -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-  position: relative;
-}
-
-b:before {
-  display: block;
-  content: "";
-  width: 100%;
-  padding-top: 100%;
-}
-
-b>.content {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-
-.main-mockcon-h1 {
-  margin: 0;
-  font-size: 4rem;
-  font-weight: 100;
-  line-height: 3.5rem;
-}
-
-@media (max-width: 54em) {
-  .mockcon-h1 {
-    line-height: 1.6rem;
-  }
-  .mockcon-h1 {
-    font-size: 2.5vw;
-  }
-}
-
-@media (max-width: 42em) {
-  .mockcon-h1 {
-    line-height: 1.1;
-  }
-}
-
-figure {
-  margin: 0;
-}
-
-figure:nth-of-type(1) {
-  grid-row: 1 / 3;
-  grid-column: 1 / 3;
-  align-self: end;
-}
-
-figure:nth-of-type(2) {
-  grid-row: 1 / 3;
-  grid-column: 3 / 5;
-  align-self: end;
-}
-
-figure:nth-of-type(3) {
-  grid-row: 3 / 5;
-  grid-column: 1 / 3;
-}
-
-figure:nth-of-type(4) {
-  grid-row: 3 / 5;
-  grid-column: 3 / 5;
-}
-
-/* end mock con header graphics  */
 
 
-/* mock con speaker graphics */
-
-* {
-  box-sizing: border-box;
-}
-
-.mockcon-graphic-body {
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  min-height: 100vh;
-  margin: 0;
-}
-
-img {
-  width: 100%;
-  display: block;
-}
-
-main {
-  display: grid;
-  grid-template-columns: 2fr 1fr 1fr 2fr;
-  grid-template-rows: 2fr 1fr 1fr 2fr;
-  max-width: 800px;
-  /*  margin: 5vw; */
-}
-
-.header-link {
-  display: block;
-}
-
-header, b {
-  grid-row: 2 / 4;
-  padding: 2rem;
-  grid-column: 2 / 4;
-  text-align: center;
-  align-self: center;
-  z-index: 1;
-}
-
-header {
-  z-index: 2;
-}
-
-b {
-  background: white;
-  -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-  position: relative;
-}
-
-b:before {
-  display: block;
-  content: "";
-  width: 100%;
-  padding-top: 100%;
-}
-
-b>.content {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-
-.mockcon-h1 {
-  margin: 0;
-  font-size: 1.4rem;
-  line-height: 2rem;
-}
-
-@media (max-width: 54em) {
-  .mockcon-h1 {
-    line-height: 1.6rem;
-  }
-  .mockcon-h1 {
-    font-size: 2.5vw;
-  }
-}
-
-@media (max-width: 42em) {
-  .mockcon-h1 {
-    line-height: 1.1;
-  }
-}
-
-figure {
-  margin: 0;
-}
-
-figure:nth-of-type(1) {
-  grid-row: 1 / 3;
-  grid-column: 1 / 3;
-  align-self: end;
-}
-
-figure:nth-of-type(2) {
-  grid-row: 1 / 3;
-  grid-column: 3 / 5;
-  align-self: end;
-}
-
-figure:nth-of-type(3) {
-  grid-row: 3 / 5;
-  grid-column: 1 / 3;
-}
-
-figure:nth-of-type(4) {
-  grid-row: 3 / 5;
-  grid-column: 3 / 5;
-}
-
-/* end mock con speaker graphics  */
-
-.infographic {
-  width: 576px !important;
-  height: 384px !important;
-}
-
-.firstcharacter {
-  color: ;
-  font-size: 34px;
-}
 
 .lead-sentence {
   font-size: 40px;
@@ -728,9 +332,10 @@ figure:nth-of-type(4) {
   font-weight: 400;
   color: rgba(0, 0, 0, 0.6);
 }
-#amberly {width: 350px; height:467px; }
-#pfaff {width: 350px; height:467px; }
-.lee-frat-image {width: 225px; height:300px;}
+
+
+/* use media queries, as necessary, for specifying responsive sizes  */
+
 @media only screen and (max-width: 767px) {
   .jumbotron {
     /*  */
@@ -738,24 +343,5 @@ figure:nth-of-type(4) {
     background-attachment: fixed;
     height: 512px;
   }
-.pathahead-header {
-  background-image: url("../images/WLUwatercolorpaths-mobile.jpg");
-  background-attachment: fixed;
-  height: 512px;
-  padding: 0;
-}
 
-.greeklife-header {
-  background-image: url("../images/WLUwatercolorlandscape-mobile.jpg");
-  background-attachment: fixed;
-  height: 512px;
-  padding: 0;
-}
-
-  .lee-chapel-header {
-    background-image: url("../images/leechapel-drone-mobile.jpg");
-    background-attachment: fixed;
-    height: 512px;
-    padding: 0;
-  }
 }
